@@ -141,7 +141,7 @@ export default {
                 
             }
             else {
-                this.v$.$touch();
+
                
             }
         }
