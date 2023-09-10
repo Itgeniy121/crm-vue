@@ -6,7 +6,7 @@ export default {
             async login ({dispatch, commit}, {email, password}){
                 try{
                      const xyi =  await signInWithEmailAndPassword(auth, email, password,);
-                    //  commit('xyi', xyi);
+                    
                 } catch (error) {
                     commit('setError', error)
                     console.log('ошибка в логине')
